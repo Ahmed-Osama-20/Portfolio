@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/all.css">
+
+</head>
+<body>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+
+<div class="bg-layer">
+  <div class="glow g1"></div>
+  <div class="glow g2"></div>
+  <div class="glow g3"></div>
+  <div class="glow g4"></div>
+</div>
+<div class="grain"></div>
+
+<header id="site-header">
+  <div class="container nav-row">
+    <div class="brand">Ahmed Osama Elbakry</div>
+    <div class="nav-right">
+      <nav class="nav-links">
+        <a href="#work" class="magnetic-el">WORK</a>
+        <a href="#about" class="magnetic-el">ABOUT</a>
+        <a href="#stack" class="magnetic-el">STACK</a>
+        <a href="#contact" class="magnetic-el">CONTACT</a>
+      </nav>
+      <div class="avail"><span class="dot"></span> AVAILABLE FOR OPPORTUNITIES</div>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#work">Work</a>
+  <a href="#about">About</a>
+  <a href="#stack">Stack</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main>
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <h1 class="headline">
+        <span class="line">Data</span>
+        <span class="line indent"><span class="accent">Engineering</span></span>
+        <span class="line">Analytics</span>
+        <span class="line indent">&amp; <span class="amp"> BI</span></span>
+      </h1>
+      <p class="hero-sub reveal">I build data pipelines, analytics solutions, and business intelligence systems that turn raw data into actionable decisions.</p>
+
+
+
+      <div class="hero-meta reveal">
+        <div class="meta-block">
+          <b>SENIOR BIS STUDENT</b><br>
+          
+          DATA ANALYTICS · DATA ENGINEERING · BUSINESS INTELLIGENCE
+        </div>
+        <div class="meta-block right">
+          <b>CAIRO , EGYPT</b><br>
+          2027
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue"><span>SCROLL</span><span class="bar"></span></div>
+  </section>
+
+  <section id="about">
+    <div class="container about-grid">
+      <div class="reveal">
+        <div class="eyebrow">ABOUT</div>
+        <h2 class="section-title">I work where <i>data</i><br>meets business.</h2>
+        <p class="about-body">I'm Ahmed Osama, a Senior Business Information Systems student focused on Data Analytics and Data Engineering. I like working with data, building things around it, and finding better ways to turn it into something useful for the business.</p>
+      </div>
+      <div class="stat-list reveal">
+        <div class="stat"><span class="n">01</span><span class="l">DATA ANALYTICS</span></div>
+        <div class="stat"><span class="n">02</span><span class="l">DATA ENGINEERING</span></div>
+        <div class="stat"><span class="n">03</span><span class="l">BUSINESS INTELLIGENCE</span></div>
+        <div class="stat"><span class="n">04</span><span class="l">SQL &amp; PYTHON</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="reveal">
+        <div class="eyebrow">HOW IT FLOWS</div>
+        <h2 class="section-title">From raw data to <i>business value</i>.</h2>
+      </div>
+
+      <div class="pipe-wrap reveal">
+        <div class="pipe-line">
+          <span class="flow" style="animation-delay:0s"></span>
+          <span class="flow" style="animation-delay:2s"></span>
+          <span class="flow" style="animation-delay:4s"></span>
+        </div>
+        <div class="pipe-row">
+          <div class="pipe-stage">
+            <div class="pipe-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/><path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/></svg></div>
+            <div class="pipe-title">DATA SOURCES</div>
+            <div class="pipe-desc">Collecting data from the systems and platforms where business data is generated.</div>
+            <div class="pipe-tech">APIs · CSV · DATABASES</div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></svg></div>
+            <div class="pipe-title">INGESTION</div>
+            <div class="pipe-desc">Moving data from different sources into reliable systems for processing and storage.
+</div>
+            <div class="pipe-tech">PYTHON · SQL</div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16l-6 8v6l-4 2v-8L4 5z"/></svg></div>
+            <div class="pipe-title">ETL / ELT</div>
+            <div class="pipe-desc">Cleaning, transforming, and validating data to make it ready for downstream use.</div>
+            <div class="pipe-tech">PANDAS · PYTHON · SQL</div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="6" rx="1"/><rect x="4" y="15" width="16" height="6" rx="1"/><path d="M8 6h.01M8 18h.01"/></svg></div>
+            <div class="pipe-title">DATA WAREHOUSE</div>
+            <div class="pipe-desc">Designing structured data models that make information easier to query, analyze, and report.</div>
+            <div class="pipe-tech">POSTGRESQL ·  DATA MODELING</div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9M12 19V4M20 19v-7"/></svg></div>
+            <div class="pipe-title">ANALYTICS</div>
+            <div class="pipe-desc">Analyzing structured data to uncover patterns, trends, and metrics that matter to the business.</div>
+            <div class="pipe-tech">POWER BI · PYTHON</div>
+          </div>
+          <div class="pipe-stage">
+            <div class="pipe-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="6"/><path d="M9.5 21h5M10 17.5h4"/></svg></div>
+            <div class="pipe-title">BUSINESS INSIGHTS</div>
+            <div class="pipe-desc">Turning data and analytics into clear insights that help businesses make informed decisions.</div>
+            <div class="pipe-tech">KPIS · REPORTING</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="container">
+      <div class="reveal">
+        <div class="eyebrow">SELECTED WORK</div>
+        <h2 class="section-title">Featured <i>projects</i>.</h2>
+      </div>
+
+      <div style="margin-top:50px;">
+
+        <div class="project reveal" data-tilt>
+          <div class="p-num">01</div>
+          <div class="p-main">
+            <div class="p-cat">DATA ENGINEERING</div>
+            <div class="p-name">E-Commerce Data Pipeline</div>
+            <div class="p-desc">Designed an end-to-end pipeline that transforms raw e-commerce data into analytics-ready datasets and business dashboards.</div>
+            <div class="p-problem"><b>Business problem —</b> Order, inventory and customer data lived in disconnected systems, making sales reporting slow and inconsistent.</div>
+            <div class="p-stack"><span>Python</span><span>SQL</span><span>PostgreSQL</span><span>ETL</span><span>Power BI</span></div>
+            <div class="p-arch"><span>Sources</span><span class="sep">→</span><span>ETL</span><span class="sep">→</span><span>Warehouse</span><span class="sep">→</span><span>Dashboard</span></div>
+          </div>
+          <div class="p-side">
+            <div class="p-preview"></div>
+            <div class="p-actions">
+              <a class="p-btn" href="#" data-cursor="view">GITHUB</a>
+              <a class="p-btn" href="#" data-cursor="view">CASE STUDY</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project reveal" data-tilt>
+          <div class="p-num">02</div>
+          <div class="p-main">
+            <div class="p-cat">DATA ANALYTICS</div>
+            <div class="p-name">Sales &amp; Revenue Intelligence</div>
+            <div class="p-desc">Built an analytical solution for tracking revenue, customer behavior, product performance, and sales KPIs.</div>
+            <div class="p-problem"><b>Business problem —</b> Leadership had no consolidated view of revenue trends across regions and product lines.</div>
+            <div class="p-stack"><span>SQL</span><span>Python</span><span>Power BI</span><span>DAX</span></div>
+            <div class="p-arch"><span>Raw sales data</span><span class="sep">→</span><span>Modeling</span><span class="sep">→</span><span>KPI dashboard</span></div>
+          </div>
+          <div class="p-side">
+            <div class="p-preview"></div>
+            <div class="p-actions">
+              <a class="p-btn" href="#" data-cursor="view">GITHUB</a>
+              <a class="p-btn" href="#" data-cursor="view">CASE STUDY</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project reveal" data-tilt>
+          <div class="p-num">03</div>
+          <div class="p-main">
+            <div class="p-cat">BUSINESS INTELLIGENCE</div>
+            <div class="p-name">Customer Analytics</div>
+            <div class="p-desc">Analyzed customer behavior and created actionable segmentation and performance insights.</div>
+            <div class="p-problem"><b>Business problem —</b> The business couldn't tell which customer segments actually drove retention and lifetime value.</div>
+            <div class="p-stack"><span>Python</span><span>Pandas</span><span>SQL</span><span>Power BI</span></div>
+            <div class="p-arch"><span>Behavior data</span><span class="sep">→</span><span>Segmentation</span><span class="sep">→</span><span>Insights</span></div>
+          </div>
+          <div class="p-side">
+            <div class="p-preview"></div>
+            <div class="p-actions">
+              <a class="p-btn" href="#" data-cursor="view">GITHUB</a>
+              <a class="p-btn" href="#" data-cursor="view">CASE STUDY</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <div class="container">
+      <div class="reveal">
+        <div class="eyebrow">CAPABILITIES</div>
+        <h2 class="section-title">The <i>Stack</i>.</h2>
+      </div>
+      <div class="stack-grid reveal">
+        <div class="stack-col">
+          <h3>DATA ENGINEERING</h3>
+          <ul><li>SQL</li><li>Python</li><li>ETL/ELT</li><li>DATA WAREHOUSE</li></ul>
+        </div>
+        <div class="stack-col">
+          <h3> DATA ANALYTICS</h3>
+          <ul><li>PANDAS</li><li>NUMPY</li><li>EXCEL</li><li>DATA ANALYSIS</li></ul>
+        </div>
+        <div class="stack-col">
+          <h3>BUSINESS INTELLIGENCE</h3>
+          <ul><li>POWER BI</li><li>DAX</li><li>DATA VISUALIZATION </li><li>REPORTING</li></ul>
+        </div>
+        <div class="stack-col">
+          <h3>TOOLS</h3>
+          <ul><li>Git</li><li>GitHub</li><li>Jupyter</li><li>VS Code</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="reveal">
+        <div class="eyebrow">TIMELINE</div>
+        <h2 class="section-title">Building the <i>foundation</i>.</h2>
+      </div>
+      <div class="tl reveal">
+        <div class="tl-item"><div class="tl-year">2023</div><div class="tl-text">Business Information Systems, Benha University Obour Campus</div></div>
+        <div class="tl-item"><div class="tl-year">2024</div><div class="tl-text">Data &amp; Business Intelligence learning</div></div>
+        <div class="tl-item"><div class="tl-year">2025</div><div class="tl-text">Data Analytics / Engineering projects</div></div>
+        <div class="tl-item"><div class="tl-year">2026</div><div class="tl-text">Advanced Data Engineering &amp; Analytics</div></div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="contact" class="contact">
+    <div class="container reveal">
+      <h2>LET'S BUILD<br><i>WITH DATA.</i></h2>
+      <p>Open to internships, junior opportunities, freelance data projects, and collaborations.</p>
+      <button class="buttonget" style= "border: 1px solid White; width: 130px; height: 32px; border-radius: 10px; font-size: 15px; margin-top: 5px;"> Get in tough  <i class="fas fa-arrow-down" style="margin-left: 1px;"></i></button>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/ahmed-osama-elbakry/" data-cursor="hover">LINKEDIN</a>
+        <a href="https://github.com/Ahmed-Osama-20" data-cursor="hover">GITHUB</a>
+        <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=ahmedosamafouadelbakry1@gmail.com" data-cursor="hover">EMAIL</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container foot-row">
+    <div class="foot-left"><b>AHMED OSAMA ElBAKRY</b><span>DATA ANALYTICS × DATA ENGINEERING</span></div>
+    <div class="foot-mid">CAIRO, EGYPT<br>© 2027</div>
+    <div class="foot-links">
+      <a href="#" data-cursor="hover">LINKEDIN</a>
+      <a href="#" data-cursor="hover">GITHUB</a>
+      <a href="mailto:hello@ahmedosama.dev" data-cursor="hover">EMAIL</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
